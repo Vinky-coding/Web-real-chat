@@ -1,15 +1,4 @@
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5002
-JWT_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-NODE_ENV=development
-```
-
+APP WEB CHAT 
 ### build app
 
 ```shell
@@ -27,6 +16,17 @@ cd frontend
 npm install
 ```
 
+### Setup .env file
+
+```js
+MONGODB_URI=...
+PORT=5002
+JWT_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+NODE_ENV=development
+```
 
 ### Chạy app
 -> Lưu ý: chạy backend và frontend riêng lẻ.
