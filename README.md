@@ -2,24 +2,35 @@
 
 ```js
 MONGODB_URI=...
-PORT=5001
+PORT=5002
 JWT_SECRET=...
-
 CLOUDINARY_CLOUD_NAME=...
 CLOUDINARY_API_KEY=...
 CLOUDINARY_API_SECRET=...
-
 NODE_ENV=development
 ```
 
-### Build the app
+### build app
 
 ```shell
 npm run build
 ```
 
-### Start the app
+### Hướng dẫn tải 
 
 ```shell
-npm start
+cd backend
+npm install
+```
+```shell
+cd frontend
+npm install
+```
+
+
+### Chạy app
+-> Lưu ý: chạy backend và frontend riêng lẻ.
+
+```shell
+npm run dev
 ```
